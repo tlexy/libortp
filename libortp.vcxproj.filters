@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include\ortp">
+      <UniqueIdentifier>{a5c1a872-deb7-42b8-9362-a1dd1323b763}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ortp\b64.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\event.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\logging.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\ortp.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\payloadtype.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\port.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\rtcp.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\rtp.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\rtpprofile.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\rtpsession.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\rtpsignaltable.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\sessionset.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\str_utils.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ortp\telephonyevents.h">
+      <Filter>include\ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jitterctl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rtpsession_priv.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rtptimer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scheduler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\winrttimer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\avprofile.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\b64.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dll_entry.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\extremum.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jitterctl.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logging.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netsim.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ortp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\payloadtype.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\port.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\posixtimer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtcp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtcp_fb.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtcp_xr.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtcpparse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtpparse.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtpprofile.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtpsession.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtpsession_inet.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtpsignaltable.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rtptimer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scheduler.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sessionset.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\str_utils.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\telephonyevents.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\winrttimer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RTPSender.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
